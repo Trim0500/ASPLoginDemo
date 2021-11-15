@@ -11,10 +11,10 @@ namespace AuthSystem.Areas.Identity.Data
     public class ApplicationUser : IdentityUser
     {
         [PersonalData]
-        [Column(TypeName = "nvarchasr(100)")]
+        [Column(TypeName = "nvarchar(100)")]
         public string firstName { get; set; }
         [PersonalData]
-        [Column(TypeName = "nvarchasr(100)")]
+        [Column(TypeName = "nvarchar(100)")]
         public string lastName { get; set; }
     }
 }
